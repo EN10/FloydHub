@@ -37,6 +37,11 @@ Output to File:
     floyd run "ls > /output/stdout"
     floyd data clone efcic/projects/cifar/1/output
 
+**DATA**
+
+* [Upload](https://docs.floydhub.com/guides/create_and_upload_dataset/#upload-a-dataset)
+* [Mount](https://docs.floydhub.com/guides/data/mounting_data/#the-data-flag)
+
 **Ref:**    
-[Run a Job](https://docs.floydhub.com/guides/run_a_job/#command_1)  
-[Storing Output](https://docs.floydhub.com/guides/data/storing_output)
+* [Run a Job](https://docs.floydhub.com/guides/run_a_job/#command_1)
+* [Storing Output](https://docs.floydhub.com/guides/data/storing_output)
