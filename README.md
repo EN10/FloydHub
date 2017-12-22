@@ -1,5 +1,7 @@
 ## FloydHub
 
+Platform as a Service for Deep Learning
+
 [Quick Start](https://docs.floydhub.com/getstarted/quick_start/)
 
 ### Install:
