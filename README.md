@@ -6,7 +6,7 @@
 
     pip install -U floyd-cli
 
-May be needed:
+May be needed (AWS Cloud9):
 
     sudo pip install -U pip
     sudo apt update
