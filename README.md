@@ -51,3 +51,17 @@ Output to File:
 **Ref:**    
 * [Run a Job](https://docs.floydhub.com/guides/run_a_job/#command_1)
 * [Storing Output](https://docs.floydhub.com/guides/data/storing_output)
+
+### Error
+
+Command:
+
+    floyd run 'python cifar10_cnn.py'
+
+Default env:
+
+    Pulling Docker image: floydhub/tensorflow:1.1.0-py3_aws.7
+
+Error:
+    
+    ImportError: No module named 'tensorflow.python.keras'
