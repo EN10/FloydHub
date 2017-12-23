@@ -16,9 +16,13 @@ May be needed (AWS Cloud9):
 
 init project:
 
+    floyd login
+[CLI Token](https://www.floydhub.com/settings/security)
+    
     mkdir cifar
     floyd init cifar
-
+    
+    
 ### Workflow:
 
 Command:
