@@ -6,7 +6,7 @@ Platform as a Service for Deep Learning
 
 ### Install:
 
-    pip install -U floyd-cli
+    sudo pip install -U floyd-cli
 
 May be needed (AWS Cloud9):
 
