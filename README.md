@@ -56,7 +56,7 @@ Output to File:
 
 Command:
 
-    floyd run 'python cifar10_cnn.py'
+    floyd run 'python cifar.py'
 
 Default env:
 
@@ -65,3 +65,7 @@ Default env:
 Error:
     
     ImportError: No module named 'tensorflow.python.keras'
+    
+Fix:
+
+    floyd run --env tensorflow-1.4 "python cifar.py"
