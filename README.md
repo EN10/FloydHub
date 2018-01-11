@@ -71,6 +71,8 @@ Default env:
 
     Pulling Docker image: floydhub/tensorflow:1.1.0-py3_aws.7
 
+* [Environments](https://docs.floydhub.com/guides/environments/)
+
 Error:
     
     ImportError: No module named 'tensorflow.python.keras'
