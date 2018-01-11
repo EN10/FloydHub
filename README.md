@@ -73,6 +73,10 @@ Default env:
 
 * [Environments](https://docs.floydhub.com/guides/environments/)
 
+Select env:
+
+    floyd run --env tensorflow-1.4:py2 "bash run.sh" 
+        
 Error:
     
     ImportError: No module named 'tensorflow.python.keras'
