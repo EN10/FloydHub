@@ -51,7 +51,7 @@ Output to File:
     floyd data init nasnet-large
     floyd data upload
 
-... `urllib3` ... `InsecurePlatformWarning` Error Fix
+... `urllib3` ... `InsecurePlatformWarning` Error, Fix:
 
     sudo pip install urllib3[secure]
 
