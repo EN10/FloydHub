@@ -43,13 +43,12 @@ Output to File:
     floyd run "ls > /output/stdout"
     floyd data clone efcic/projects/cifar/1/output
 
-**DATA**
+**Dataset**
+
+    floyd data init nasnet-large    
+    floyd data upload
 
 * [Upload](https://docs.floydhub.com/guides/create_and_upload_dataset/#upload-a-dataset)
-
-
-    floyd data init nasnet-large
-    floyd data upload
 
 ... `urllib3` ... `InsecurePlatformWarning` Error, Fix:
 
