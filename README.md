@@ -46,6 +46,15 @@ Output to File:
 **DATA**
 
 * [Upload](https://docs.floydhub.com/guides/create_and_upload_dataset/#upload-a-dataset)
+
+
+    floyd data init nasnet-large
+    floyd data upload
+
+... `urllib3` ... `InsecurePlatformWarning` Error Fix
+
+    sudo pip install urllib3[secure]
+
 * [Mount](https://docs.floydhub.com/guides/data/mounting_data/#the-data-flag)
 
 **Ref:**    
