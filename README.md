@@ -54,7 +54,7 @@ Output to File:
 
     sudo pip install urllib3[secure]
 
-* [Mount](https://docs.floydhub.com/guides/data/mounting_data/#the-data-flag)
+* [Mount](https://docs.floydhub.com/guides/data/mounting_data/#the-data-flag)       
 
 
     floyd run --data efcic/datasets/nasnet-large/2:models 'bash run.sh'
